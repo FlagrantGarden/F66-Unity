@@ -51,5 +51,6 @@
     "temp/": true,
     "Temp/": true,
     "*.csproj": true // Comment as needed locally
-  }
+  },
+  "editor.rulers": [76, 80, 96, 100]
 }
