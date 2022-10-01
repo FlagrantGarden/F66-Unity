@@ -1,4 +1,4 @@
-# Kuruso
+# kuruso
 
 An adventure game in the vein of DRPGs.
 
