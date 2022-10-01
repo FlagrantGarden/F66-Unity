@@ -1,0 +1,6 @@
+.purpose {
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: rgb(160, 68, 255);
+    margin-bottom: 12px;
+}

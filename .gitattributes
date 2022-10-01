@@ -13,6 +13,9 @@
 *.cginc eol=lf text
 *.shader eol=lf text
 *.json eol=lf text
+*.txt eol=lf text
+*.uss eol=lf text
+*.uxml eol=lf text
 
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf

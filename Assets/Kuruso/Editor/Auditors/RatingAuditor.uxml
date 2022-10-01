@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Kuruso/Editor/RatingAuditor.uss?fileID=7433441132597879392&amp;guid=63cfcad750d0e3d4faaefd43c6274262&amp;type=3#RatingAuditor" />
+    <ui:Label text="This auditor is meant to enable you to introspect on the logic that the Rating component has attached to it." name="Purpose" class="purpose" style="white-space: normal;" />
+    <ui:GroupBox name="modifierGroup" style="flex-direction: row;">
+        <ui:IntegerField label="Modifier" value="1" view-data-key="modifier" picking-mode="Ignore" name="modifier" tooltip="Set this to the value you want to increment or decrement the rating by." binding-path="modifier" style="flex-grow: 1; flex-shrink: 1; height: 19px; width: 116px; align-items: auto; justify-content: space-between;" />
+        <ui:Button tabindex="-1" text="Modify Rating" display-tooltip-when-elided="true" name="modifyRating" style="flex-direction: row; flex-shrink: 1; flex-grow: 1; width: 85px; align-items: auto; justify-content: space-between;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="checkGroup" style="width: 342px; align-items: flex-end; flex-direction: row;">
+        <ui:IntegerField label="Difficulty" value="1" name="difficulty" readonly="false" binding-path="difficulty" style="width: 185px; align-items: flex-start;" />
+        <ui:Button tabindex="-1" text="Check Rating" display-tooltip-when-elided="true" name="checkRating" style="-unity-text-align: middle-center; flex-direction: row; width: 137px;" />
+    </ui:GroupBox>
+</ui:UXML>
